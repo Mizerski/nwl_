@@ -1,16 +1,17 @@
-# nwl_
+<h2 align="center">Como Usar 🤔</h2>
 
-A new Flutter project.
+   ```
+   - Clone esse repositório:
+   $ git clone https://github.com/Mizerski/nwl_
 
-## Getting Started
+   - Entre no diretório:
+   $ cd nwl_
 
-This project is a starting point for a Flutter application.
+   - Instale as dependências:
+   $ flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+   - Inicie o app: 
+   $ flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
