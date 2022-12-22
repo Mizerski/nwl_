@@ -1,0 +1,53 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./selectSection.css");
+@import url("./main.css");
+@import url("./card.css");
+@import url("./side-bar.css");
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --fontSizeAlternative: 22px;
+  --fontSizeThird:13px; 
+  --fontFamily: "Monocraft";
+  --cinzaClaro: #DCDCDC;
+  --corDeBorda: 1px solid rgba(0, 0, 0, 0.1);
+  --corDeBordaSelected: 1px solid var(--black);
+  --amarelo-douro: rgb(255, 192, 23);
+  --cinzaInput: rgba(242, 242, 242, 1);
+  --cinzaTime: rgba(117, 117, 117, 1);
+  --sideBarTitle: rgba(41, 41, 41, 1);
+  --fontBold: 700;
+  --fontWeighSecond: 500;
+  --green: rgb(26, 137, 23);
+  --lightBlue:rgba(196, 226, 255, 0.5);
+}
+
+body {
+  /* font-family: ; */
+  font-size: 16px;
+  font-family: var(--font-family);
+  line-height: 20px;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0
+}
+nav{
+  list-style: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.border-bottom {
+  border-bottom: var(--corDeBorda);
+}
+.bold{
+  font-weight: var(--fontBold);
+  color: var(--sideBarTitle);
+  font-size: 1.1rem;
+}
