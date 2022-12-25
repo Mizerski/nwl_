@@ -1,0 +1,111 @@
+card-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 728px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    margin-bottom: 3rem;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.estrela-dourada {
+    color: var(--amarelo-douro);
+}
+
+.publication-date {
+    padding: 0 0.375rem;
+
+}
+
+.img-autor {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-right: 0.375rem;
+}
+
+.member-only {
+    padding-left: 0.375rem;
+}
+
+.card-resume {
+    display: grid;
+    grid-template-columns: 31.75rem 1fr;
+}
+
+/* .card-resume__text{
+    width: 31.75rem;
+} */
+
+.card-titulor {
+    font-size: var(--fontSizeAlternative);
+    font-weight: var(--fontBold);
+    margin-bottom: 1rem;
+}
+
+.card-resume__img {
+    justify-self: end;
+    height: 100%;
+}
+
+.card-topic {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.card-topic__tech {
+    border-radius: 99em;
+    padding: 0.125rem 0.5rem;
+    background-color: var(--cinzaInput);
+    transition: .5s;
+
+}
+
+.card-topic__tech:hover {
+    background-color: rgb(221, 221, 221);
+    transition: .5s;
+}
+
+.card-topic__read-time {
+    color: var(--cinzaTime);
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+}
+
+.card-actions__buttons {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.favoriteart,
+.show-less,
+.more-options {
+    opacity: 0.6;
+}
+
+.favoriteart:hover,
+.show-less:hover,
+.more-options:hover {
+    opacity: 1;
+}
+
+.show-less {
+    width: 1.2em;
+    margin: 0 1rem;
+}

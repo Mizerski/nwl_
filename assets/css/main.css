@@ -1,0 +1,5 @@
+main{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
